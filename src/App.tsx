@@ -1,5 +1,6 @@
 import { FormEvent, useState } from "react";
 import logo from "./assets/conceptive-logo.png";
+import headerLogo from "./assets/conceptive-wordmark.png";
 import heroImage from "./assets/hero-excavator.png";
 import teamImage from "./assets/site-team.png";
 import backhoeImage from "./assets/backhoe.png";
@@ -233,7 +234,7 @@ export default function App() {
       <header className="header">
         <div className="container header-inner">
           <a href="#home" className="brand" aria-label="Conceptive Contracting home">
-            <img src={logo} alt="Conceptive Contracting" />
+            <img src={headerLogo} alt="Conceptive Contracting" />
           </a>
           <nav className="desktop-nav" aria-label="Main navigation">
             {navItems.map((item) => (
